@@ -26,7 +26,7 @@ Within the GUI, select ‘Tools -> Edit Neighbours’ to add neighbours.
 -	Java 8u66 or higher (Oracle) as shown in the image below.
 -	On Windows, make sure that Microsoft Visual C++ 2015 Redistributable Update 3 is installed 
 
-![](https://lh4.googleusercontent.com/TeLxOYWa2smmyfU92L4rm9gtvmZY4tGMKHDMVuZVPxSDvgpmsn9Lg8xR26lMeiGFUX9JNS7C-Pf2gw=w1920-h922-rw)
+![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/java%20version.PNG)
   
 Now, install the compiled version of IRI. You can find it in https://github.com/iotaledger/iri/releases. 
   
