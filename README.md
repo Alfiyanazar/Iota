@@ -40,12 +40,12 @@ $ cd iri
 $ mvn clean compile 
 $ mvn package 
 ``` 
- 
-  ![](https://lh3.googleusercontent.com/2StyLYuBOgQdEHtITVN3z2isaVTmk9Y28--Kp8pnSM80vCNlY1PNmHChkl7ydWECLLP_9oFGbn-z7Q=w1920-h922-rw)
- 
+c
+
 This will take some time. If the process is completed successfully you will see the result as “Build success”. 
   
-  ![](https://lh4.googleusercontent.com/yI0Wd8_7pL5N7D-QTDjzbsT_bS5ejo0_I12RYRZWhcESCA4qGW0l_4o3CD7FoQuNclW02yyreWeN7w=w1920-h922-rw)
+  ![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/package.PNG)
+  
  This will then create a target folder, in which you will find the compiled .jar (not the original one) which you can then use. 
   
  # Run IRI  
@@ -59,7 +59,7 @@ $ java -jar iri.jar -p 14600
  
 ``` 
   
-  ![](https://lh6.googleusercontent.com/LA6boDCPLFJV0GONMrMn8YTdyg3BxUiKbUpbLnhVXZphmT_oedNHVg8hfT_N9P6XWH9yDdS9Jhs6lw=w1920-h922-rw)
+  ![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/iri.PNG)
   
 This will start IRI at port 14600. In order to actually use IRI, you will need to find neighbours. It should be noted that IRI works with UDP and with TCP. As such, you can connect to your neighbours with either protocol. In order to get the most out of IRI, we have also made a set of flags available for you. 
  
@@ -101,16 +101,15 @@ Go to the below link .
 -	Generate seed using seed generator and copy the seed to login to the wallet. 
 
 
-   
-   ![](https://lh5.googleusercontent.com/UiPX76Ffr6JOKC7IJ_JODSbpwNvwKEVmLP0sSw8M_vsQTvqmuQAQo7uXtmgsUqwLDfxrJX43LQU8vQ=w1920-h922-rw)
+![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/loginwallet.PNG)   
+  
    
 -	After you login, you'll see a menu with Balance, Send , Recieve and history. 
 
-![](https://lh3.googleusercontent.com/75Xm-fLotiTXsaBta1Xz5dUECENNrx_JCQ3cJ1PqvVrMwFE_BvN_qqO9VzQhcqzni8HUPAXygWBo-A=w1920-h922-rw)
-  
+![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/wallet.PNG)   
 -	Select recieve and attach to tangle. 
 
-![](https://lh4.googleusercontent.com/TOMCMdqB1UtedeQtcna-BFibBEx4eOX_iCXEfuvmb8JvwvW3beYnn4CaYCsUaXFveRjug5M0QTUs_w=w1920-h922-rw)
+![alt text](https://github.com/Alfiyanazar/Iota/blob/master/pictures/attach.PNG)
  
   
 In order to use Iri we have to connect to neighbours.  
