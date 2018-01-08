@@ -40,7 +40,7 @@ $ cd iri
 $ mvn clean compile 
 $ mvn package 
 ``` 
-c
+
 
 This will take some time. If the process is completed successfully you will see the result as “Build success”. 
   
@@ -66,6 +66,7 @@ This will start IRI at port 14600. In order to actually use IRI, you will need t
 Once you have successfully started IRI, it will create a database folder (either mainnetdb or testnetdb). 
  
  # Run IRI with .ini file 
+ 
  You can also provide an ini file to store all of your command line options and easily update 
 (Especially neighbours) if needed. You can enable it via the -- config flag. Here is an example INI file: 
   
@@ -116,12 +117,15 @@ In order to use Iri we have to connect to neighbours.
  Get neighbours, therefore goto https://slack.iota.org/ and join the community and enter the channel nodesharing. On this cannel are more people like you searching for neighbours, just get in touch and find 4-9 Neighbours. 
 Edit iri.ini suit your needs. 
  
+ 
 IRI Testnet 
 To make the development and the integration of IRI faster, we have setup a special testnet network where exchanges can test certain functionality without having to worry about losing tokens. Please join the #testnet channel on the IOTA Slack to be able to join this testnet network. You will have to launch your IRI instance with the --testnet flag. 
  
  
+ 
   ### For anyone interested in learning more about IOTA, you can check with the links given below:
 https://iota.readme.io/reference#getnodeinfo
+
 https://domschiener.gitbooks.io/iota-guide/content/core-and-libraries/iri.html
 
  
